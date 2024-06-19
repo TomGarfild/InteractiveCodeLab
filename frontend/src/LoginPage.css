@@ -1,0 +1,122 @@
+.login-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 70px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+.login-page .login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #62e023;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.login-page .login-button:hover {
+  background-color: #00bc00;
+}
+
+.separator {
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.github-login,
+.google-login {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.github-login:hover,
+.google-login:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.github-login img,
+.google-login img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.signup-link a {
+  color: #62e023;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #00bc00;
+}
+
+.login-forgot-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forgot-password-link {
+  color: #62e023;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-password-link:hover {
+  color: #00bc00;
+}

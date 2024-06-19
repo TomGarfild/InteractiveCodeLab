@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.10.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InteractiveCodeLab.Domain\InteractiveCodeLab.Domain.csproj" />
+    <ProjectReference Include="..\InteractiveCodeLab.Infrastructure\InteractiveCodeLab.Infrastructure.csproj" />
+    <ProjectReference Include="..\InteractiveCodeLab.Visualizer\InteractiveCodeLab.Visualizer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentication\Login\" />
+    <Folder Include="Algorithms\" />
+  </ItemGroup>
+
+</Project>

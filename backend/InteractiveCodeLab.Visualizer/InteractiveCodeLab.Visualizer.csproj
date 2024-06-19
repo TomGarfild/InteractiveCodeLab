@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
+    <PackageReference Include="Antlr4BuildTasks" Version="12.8.0" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <Antlr4 Include="Grammar\Python3\Python3Lexer.g4">
+      <AllowAntlr4cs>false</AllowAntlr4cs>
+      <AntlrToolJarDownloadDir>USERPROFILE/.m2/</AntlrToolJarDownloadDir>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <DOptions>language=CSharp</DOptions>
+      <Encoding>UTF-8</Encoding>
+      <Error>false</Error>
+      <ForceAtn>false</ForceAtn>
+      <GAtn>false</GAtn>
+      <Generator>MSBuild:Compile</Generator>
+      <IntermediateOutputPath>obj\Debug\net7.0\</IntermediateOutputPath>
+      <JavaDownloadDirectory>USERPROFILE/.jre/</JavaDownloadDirectory>
+      <JavaExec>PATH;DOWNLOAD</JavaExec>
+      <Listener>true</Listener>
+      <Log>false</Log>
+      <LongMessages>false</LongMessages>
+      <Visitor>true</Visitor>
+    </Antlr4>
+    <Antlr4 Include="Grammar\Python3\Python3Parser.g4">
+      <AllowAntlr4cs>false</AllowAntlr4cs>
+      <AntlrToolJarDownloadDir>USERPROFILE/.m2/</AntlrToolJarDownloadDir>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <DOptions>language=CSharp</DOptions>
+      <Encoding>UTF-8</Encoding>
+      <Error>false</Error>
+      <ForceAtn>false</ForceAtn>
+      <GAtn>false</GAtn>
+      <Generator>MSBuild:Compile</Generator>
+      <IntermediateOutputPath>obj\Debug\net7.0\</IntermediateOutputPath>
+      <JavaDownloadDirectory>USERPROFILE/.jre/</JavaDownloadDirectory>
+      <JavaExec>PATH;DOWNLOAD</JavaExec>
+      <Listener>true</Listener>
+      <Log>false</Log>
+      <LongMessages>false</LongMessages>
+      <Visitor>true</Visitor>
+    </Antlr4>
+    <Antlr4 Include="Grammar\CSharp\CSharpLexer.g4">
+      <AllowAntlr4cs>false</AllowAntlr4cs>
+      <AntlrToolJarDownloadDir>USERPROFILE/.m2/</AntlrToolJarDownloadDir>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <DOptions>language=CSharp</DOptions>
+      <Encoding>UTF-8</Encoding>
+      <Error>false</Error>
+      <ForceAtn>false</ForceAtn>
+      <GAtn>false</GAtn>
+      <Generator>MSBuild:Compile</Generator>
+      <IntermediateOutputPath>obj\Debug\net7.0\</IntermediateOutputPath>
+      <JavaDownloadDirectory>USERPROFILE/.jre/</JavaDownloadDirectory>
+      <JavaExec>PATH;DOWNLOAD</JavaExec>
+      <Listener>true</Listener>
+      <Log>false</Log>
+      <LongMessages>false</LongMessages>
+      <Visitor>true</Visitor>
+    </Antlr4>
+    <Antlr4 Include="Grammar\CSharp\CSharpParser.g4">
+      <AllowAntlr4cs>false</AllowAntlr4cs>
+      <AntlrToolJarDownloadDir>USERPROFILE/.m2/</AntlrToolJarDownloadDir>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <DOptions>language=CSharp</DOptions>
+      <Encoding>UTF-8</Encoding>
+      <Error>false</Error>
+      <ForceAtn>false</ForceAtn>
+      <GAtn>false</GAtn>
+      <Generator>MSBuild:Compile</Generator>
+      <IntermediateOutputPath>obj\Debug\net7.0\</IntermediateOutputPath>
+      <JavaDownloadDirectory>USERPROFILE/.jre/</JavaDownloadDirectory>
+      <JavaExec>PATH;DOWNLOAD</JavaExec>
+      <Listener>true</Listener>
+      <Log>false</Log>
+      <LongMessages>false</LongMessages>
+      <Visitor>true</Visitor>
+    </Antlr4>
+    <Antlr4 Include="Grammar\Java\JavaLexer.g4">
+      <AllowAntlr4cs>false</AllowAntlr4cs>
+      <AntlrToolJarDownloadDir>USERPROFILE/.m2/</AntlrToolJarDownloadDir>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <DOptions>language=CSharp</DOptions>
+      <Encoding>UTF-8</Encoding>
+      <Error>false</Error>
+      <ForceAtn>false</ForceAtn>
+      <GAtn>false</GAtn>
+      <Generator>MSBuild:Compile</Generator>
+      <IntermediateOutputPath>obj\Debug\net7.0\</IntermediateOutputPath>
+      <JavaDownloadDirectory>USERPROFILE/.jre/</JavaDownloadDirectory>
+      <JavaExec>PATH;DOWNLOAD</JavaExec>
+      <Listener>true</Listener>
+      <Log>false</Log>
+      <LongMessages>false</LongMessages>
+      <Visitor>true</Visitor>
+    </Antlr4>
+    <Antlr4 Include="Grammar\Java\JavaParser.g4">
+      <AllowAntlr4cs>false</AllowAntlr4cs>
+      <AntlrToolJarDownloadDir>USERPROFILE/.m2/</AntlrToolJarDownloadDir>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <DOptions>language=CSharp</DOptions>
+      <Encoding>UTF-8</Encoding>
+      <Error>false</Error>
+      <ForceAtn>false</ForceAtn>
+      <GAtn>false</GAtn>
+      <Generator>MSBuild:Compile</Generator>
+      <IntermediateOutputPath>obj\Debug\net7.0\</IntermediateOutputPath>
+      <JavaDownloadDirectory>USERPROFILE/.jre/</JavaDownloadDirectory>
+      <JavaExec>PATH;DOWNLOAD</JavaExec>
+      <Listener>true</Listener>
+      <Log>false</Log>
+      <LongMessages>false</LongMessages>
+      <Visitor>true</Visitor>
+    </Antlr4>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InteractiveCodeLab.Domain\InteractiveCodeLab.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

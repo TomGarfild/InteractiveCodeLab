@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.logo {
+  height: 40px;
+}
+
+.header .login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #00bc00;
+  border-radius: 5px;
+  transition: color 0.3s ease;
+  background-color: transparent;
+}
